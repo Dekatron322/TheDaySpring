@@ -7,6 +7,9 @@ from django.urls import reverse
 # Create your views here.
 
 # Create your views here.
+
+def error_404_view(request,exception):
+	return render(request, 'landing_page/404.html')
 def index(request):
     context = {}
     return render(request, "landing_page/index.html", context )

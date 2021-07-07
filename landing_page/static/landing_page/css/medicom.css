@@ -708,7 +708,7 @@ TRI SEC
 	margin-top:16px;
 }
 .tri-sec h4 a:hover {
-	color:#2B96CC
+	color: #710193;
 }
 .tri-sec p {
 	line-height:22px !important
@@ -1435,11 +1435,11 @@ TRANSPARENT REVOLUTION SLIDER
 
 .fixed-header.small-header .slider-revolution .medicom-header li.dropdown .dropdown-menu,
 .fixed-header.small-header .slider-revolution .medicom-header li.mega-menu-item .mega-menu{
-	border-top:6px solid #2b96cc;
+	border-top:6px solid #710193;
 }
 
 .fixed-header.small-header .slider-revolution .medicom-header li:hover a{
-	color:#2b96cc !important;
+	color:#710193 !important;
 }
 
 .fixed-header.small-header .slider-revolution .medicom-header li.dropdown:hover .dropdown-menu li a,
@@ -1449,7 +1449,7 @@ TRANSPARENT REVOLUTION SLIDER
 
 .fixed-header.small-header .slider-revolution .medicom-header li.dropdown:hover .dropdown-menu li a:hover,
 .fixed-header.small-header .slider-revolution .medicom-header li.mega-menu-item:hover .mega-menu li a:hover{
-	color:#2b96cc !important;
+	color:#710193 !important;
 }
 
 .fixed-header.small-header .slider-revolution .medicom-header .navbar-brand img{
@@ -1590,7 +1590,7 @@ TESTIMONIALS 2
 }
 .testimonials2 .owl-controls .owl-pagination .owl-page:hover,
 .testimonials2 .owl-controls .owl-pagination .owl-page.active{
-	background-color:#2b96cc;
+	background-color:#710193;
 }
 .image-carousel .owl-item{
 	padding:0 !important;
@@ -1614,7 +1614,7 @@ TESTIMONIALS 2
 }
 .image-carousel .owl-controls .owl-pagination .owl-page:hover,
 .image-carousel .owl-controls .owl-pagination .owl-page.active{
-	background-color:#2b96cc;
+	background-color:#710193;
 }
 
 /*------------------------------------------------------------------
@@ -2910,7 +2910,7 @@ LATEST NEWS ( blog )
 }
 .blog-full-width-date {
 	width:76px;
-	background:#2b96cc;
+	background:#710193;
 	float:left;
 	text-align:center;
 	margin-top:29px;
@@ -3547,7 +3547,7 @@ div.button span,input.uniform-input,select.uniform-multiselect,textarea.uniform{
 .chart,.percent{display:inline-block}.chart{position:relative;width:181px;height:181px;margin:30px 0 50px 50px;text-align:center}.piechart-section .chart{margin:80px 0 50px 50px}.chart.first{margin-left:0}.chart canvas{position:absolute;top:0;left:0}.percent{line-height:181px;font-size:34px;color:#6b6b6b;z-index:2}.percent:after{content:'%';margin-left:.1em;font-size:.8em}.angular{margin-top:100px}.angular .chart{margin-top:0}
 
 /* .... JCAROUSEL .... */
-.jcarousel-skin-tango .jcarousel-direction-rtl{direction:rtl}.jcarousel-skin-tango .jcarousel-container-vertical{height:412px}.jcarousel-skin-tango .jcarousel-clip{overflow:hidden}.jcarousel-skin-tango .jcarousel-clip-vertical{height:412px;margin-top:30px}.jcarousel-skin-tango .jcarousel-item-vertical{margin-bottom:10px}.jcarousel-skin-tango .jcarousel-item-placeholder{background:#fff;color:#000}.jcarousel-skin-tango .jcarousel-next-vertical{position:absolute;top:-55px;right:0;width:25px;height:4px;cursor:pointer;background:#434343}.jcarousel-skin-tango .jcarousel-prev-vertical{position:absolute;top:-55px;right:27px;width:25px;height:4px;cursor:pointer;background:#434343}.jcarousel-skin-tango .jcarousel-prev-vertical:active{background:#2B96CC}.jcarousel-skin-tango .jcarousel-prev-disabled-vertical,.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:active,.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:focus,.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:hover{cursor:default}.jcarousel-skin-tango .jcarousel-container-horizontal{padding:15px 0 0}.jcarousel-skin-tango .jcarousel-item-horizontal{width:555px;margin-right:50px}.jcarousel-skin-tango .jcarousel-next-horizontal{position:absolute;top:-50px;right:0;width:25px;height:4px;cursor:pointer;background:#434343}.jcarousel-skin-tango .jcarousel-prev-horizontal{position:absolute;top:-50px;right:27px;width:25px;height:4px;cursor:pointer;background:#434343}.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal{left:auto;right:5px;background-image:url(next-horizontal.html)}.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active,.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus,.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover{cursor:default}
+.jcarousel-skin-tango .jcarousel-direction-rtl{direction:rtl}.jcarousel-skin-tango .jcarousel-container-vertical{height:412px}.jcarousel-skin-tango .jcarousel-clip{overflow:hidden}.jcarousel-skin-tango .jcarousel-clip-vertical{height:412px;margin-top:30px}.jcarousel-skin-tango .jcarousel-item-vertical{margin-bottom:10px}.jcarousel-skin-tango .jcarousel-item-placeholder{background:#fff;color:#000}.jcarousel-skin-tango .jcarousel-next-vertical{position:absolute;top:-55px;right:0;width:25px;height:4px;cursor:pointer;background:#434343}.jcarousel-skin-tango .jcarousel-prev-vertical{position:absolute;top:-55px;right:27px;width:25px;height:4px;cursor:pointer;background:#434343}.jcarousel-skin-tango .jcarousel-prev-vertical:active{background:#710193}.jcarousel-skin-tango .jcarousel-prev-disabled-vertical,.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:active,.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:focus,.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:hover{cursor:default}.jcarousel-skin-tango .jcarousel-container-horizontal{padding:15px 0 0}.jcarousel-skin-tango .jcarousel-item-horizontal{width:555px;margin-right:50px}.jcarousel-skin-tango .jcarousel-next-horizontal{position:absolute;top:-50px;right:0;width:25px;height:4px;cursor:pointer;background:#434343}.jcarousel-skin-tango .jcarousel-prev-horizontal{position:absolute;top:-50px;right:27px;width:25px;height:4px;cursor:pointer;background:#434343}.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal{left:auto;right:5px;background-image:url(next-horizontal.html)}.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active,.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus,.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover{cursor:default}
 
 
 /*------------------------------------------------------------------

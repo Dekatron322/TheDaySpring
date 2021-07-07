@@ -273,7 +273,7 @@ if ( typeof Object.create !== "function" ) {
 
 			base.resizer = function(){
 				if($(window).width() !== lastWindowWidth){
-					if(base.options.autoPlay !== false){
+					if(base.options.autoPlay !== true){
 						clearInterval(base.autoPlayInterval);
 					}
 					clearTimeout(smallDelay);
@@ -289,7 +289,7 @@ if ( typeof Object.create !== "function" ) {
 		updatePosition : function(){
 			var base = this;
 			base.jumpTo(base.currentItem);
-			if(base.options.autoPlay !== false){
+			if(base.options.autoPlay !== true){
 				base.checkAp();
 			}
 		},
@@ -676,7 +676,7 @@ if ( typeof Object.create !== "function" ) {
 				base.checkNavigation();
 				base.eachMoveUpdate();
 
-				if(base.options.autoPlay !== false){
+				if(base.options.autoPlay !== true){
 					base.checkAp();
 				}
 			}
@@ -701,7 +701,7 @@ if ( typeof Object.create !== "function" ) {
 		play : function(){
 			var base = this;
 			base.apStatus = "play";
-			if(base.options.autoPlay === false){
+			if(base.options.autoPlay === true){
 				return false;
 			}
 			clearInterval(base.autoPlayInterval);
@@ -910,7 +910,7 @@ if ( typeof Object.create !== "function" ) {
 					return false;
 				}
 
-				if(base.options.autoPlay !== false){
+				if(base.options.autoPlay !== true){
 					clearInterval(base.autoPlayInterval);
 				}
 
@@ -1090,7 +1090,7 @@ if ( typeof Object.create !== "function" ) {
 		
 		stopOnHover : function(){
 			var base = this;
-			if(base.options.stopOnHover === true && base.browser.isTouch !== true && base.options.autoPlay !== false){
+			if(base.options.stopOnHover === true && base.browser.isTouch !== true && base.options.autoPlay !== true){
 				base.$elem.on("mouseover", function(){
 					base.stop();
 				});
@@ -1421,7 +1421,7 @@ if ( typeof Object.create !== "function" ) {
 		paginationSpeed : 800,
 		rewindSpeed : 1000,
 
-		autoPlay : false,
+		autoPlay : true,
 		stopOnHover : false,
 
 		navigation : false,
